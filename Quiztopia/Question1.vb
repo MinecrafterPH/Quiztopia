@@ -1,0 +1,29 @@
+﻿Public Class Question1
+    Public score As Integer = 20
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        score -= 1
+        MessageBox.Show("You are incorrect! :(", "Quiztopia", MessageBoxButtons.OK)
+        Question2.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        score -= 1
+        MessageBox.Show("You are incorrect! :(", "Quiztopia", MessageBoxButtons.OK)
+        Question2.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+        score -= 1
+        MessageBox.Show("You are incorrect! :(", "Quiztopia", MessageBoxButtons.OK)
+        Question2.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+        MessageBox.Show("You are correct! :)", "Quiztopia", MessageBoxButtons.OK)
+        Question2.Show()
+        Me.Hide()
+    End Sub
+End Class

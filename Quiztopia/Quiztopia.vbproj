@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE49362E-37B0-4F8B-9D4F-E23D3A42AAB8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>The_Generic_Quiz.My.MyApplication</StartupObject>
+    <RootNamespace>The_Generic_Quiz</RootNamespace>
+    <AssemblyName>Quiztopia</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Quiztopia.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Quiztopia.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Credits.Designer.vb">
+      <DependentUpon>Credits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Credits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question1.Designer.vb">
+      <DependentUpon>Question1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Screen.Designer.vb">
+      <DependentUpon>Main Screen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="How To Play.Designer.vb">
+      <DependentUpon>How To Play.vb</DependentUpon>
+    </Compile>
+    <Compile Include="How To Play.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Question10.Designer.vb">
+      <DependentUpon>Question10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question11.Designer.vb">
+      <DependentUpon>Question11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question12.Designer.vb">
+      <DependentUpon>Question12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question13.Designer.vb">
+      <DependentUpon>Question13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question14.Designer.vb">
+      <DependentUpon>Question14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question15.Designer.vb">
+      <DependentUpon>Question15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question16.Designer.vb">
+      <DependentUpon>Question16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question17.Designer.vb">
+      <DependentUpon>Question17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question17.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question18.Designer.vb">
+      <DependentUpon>Question18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question18.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question19.Designer.vb">
+      <DependentUpon>Question19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question19.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question2.Designer.vb">
+      <DependentUpon>Question2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question20.Designer.vb">
+      <DependentUpon>Question20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question20.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question3.Designer.vb">
+      <DependentUpon>Question3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question4.Designer.vb">
+      <DependentUpon>Question4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question5.Designer.vb">
+      <DependentUpon>Question5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question6.Designer.vb">
+      <DependentUpon>Question6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question7.Designer.vb">
+      <DependentUpon>Question7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question8.Designer.vb">
+      <DependentUpon>Question8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question9.Designer.vb">
+      <DependentUpon>Question9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Results.Designer.vb">
+      <DependentUpon>Results.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Results.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Credits.resx">
+      <DependentUpon>Credits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question1.resx">
+      <DependentUpon>Question1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="How To Play.resx">
+      <DependentUpon>How To Play.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Screen.resx">
+      <DependentUpon>Main Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question10.resx">
+      <DependentUpon>Question10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question11.resx">
+      <DependentUpon>Question11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question12.resx">
+      <DependentUpon>Question12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question13.resx">
+      <DependentUpon>Question13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question14.resx">
+      <DependentUpon>Question14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question15.resx">
+      <DependentUpon>Question15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question16.resx">
+      <DependentUpon>Question16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question17.resx">
+      <DependentUpon>Question17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question18.resx">
+      <DependentUpon>Question18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question19.resx">
+      <DependentUpon>Question19.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question2.resx">
+      <DependentUpon>Question2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question20.resx">
+      <DependentUpon>Question20.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question3.resx">
+      <DependentUpon>Question3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question4.resx">
+      <DependentUpon>Question4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question5.resx">
+      <DependentUpon>Question5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question6.resx">
+      <DependentUpon>Question6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question7.resx">
+      <DependentUpon>Question7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question8.resx">
+      <DependentUpon>Question8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question9.resx">
+      <DependentUpon>Question9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Results.resx">
+      <DependentUpon>Results.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
